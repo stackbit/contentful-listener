@@ -17,6 +17,8 @@ const contentfulListener = new ContentfulListener({
         // Do something
     }
 });
+
+contentfulListener.start();
 ```
 
 The `result` is a an object having the following interface, very similar to Contentful's [Sync API response](https://contentful.github.io/contentful.js/contentful/9.1.5/Sync.html#.SyncCollection):
