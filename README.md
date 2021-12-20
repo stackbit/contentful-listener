@@ -2,6 +2,8 @@
 
 The Contentful listener listens for content changes in Contentful and invokes the provided callback when such changes occur.
 
+You can use this listener with [Nextjs Hot Content Reload](https://github.com/stackbit/nextjs-hot-content-reload) package when working locally to "hot reload" your browser with fresh content.
+
 Usage:
 
 ```typescript
